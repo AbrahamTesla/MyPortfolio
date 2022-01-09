@@ -1,0 +1,34 @@
+.product {
+   width: 30%;
+   height: 40vh;
+   margin: 20px 10px;
+   border: 2px solid rgb(243, 242, 242);
+}
+
+.productTab {
+   height: 20px;
+   background-color: #333;
+   display: flex;
+   align-items: center;
+
+   /* To make tab visible while hovering */
+   position: sticky;
+   z-index: 2;
+}
+
+.productCircle {
+   width: 6px;
+   height: 6px;
+   border-radius: 50%;
+   margin: 3px;
+   background-color: white;
+}
+
+.productImage {
+   width: 100%;
+   transition: all 10s ease;
+}
+
+.product :hover .productImage {
+   transform: translateY(-100px);
+}
