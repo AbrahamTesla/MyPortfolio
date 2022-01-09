@@ -81,3 +81,21 @@
    top: 0px;
    right: 0px;
 }
+
+@media screen and (max-width: 480px) {
+   .intro {
+      flex-direction: column;
+   }
+
+   .intro-description {
+      display: none;
+   }
+
+   .intro-left-wrapper {
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+      height: 100%;
+      padding: 10px;
+   }
+}

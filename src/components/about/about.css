@@ -67,3 +67,30 @@
    margin-bottom: 10px;
    color: #555;
 }
+
+@media screen and (max-width: 480px) {
+   .about {
+      flex-direction: column;
+      text-align: center;
+      margin-top: 50px;
+   }
+
+   .about-left {
+      width: 100%;
+   }
+
+   .about-card.background,
+   .award {
+      display: none;
+   }
+
+   .about-card {
+      height: 50vh;
+      width: 80%;
+      /* padding: 0px 10px; */
+   }
+
+   .about-right {
+      padding: 20px;
+   }
+}

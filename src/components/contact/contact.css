@@ -87,3 +87,35 @@ button {
    font-size: 10px;
    font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+   .contactWrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+   }
+
+   .contactTitle {
+      font-size: 20px;
+      width: 100%;
+      font-weight: 600;
+   }
+
+   .contactInfoItems {
+      margin: 30px 0px;
+   }
+
+   input {
+      width: 90%;
+   }
+
+   form {
+      margin-top: 0px;
+   }
+
+   .submit {
+      width: 100%;
+   }
+   .contactBackground {
+      height: 120vh;
+   }
+}

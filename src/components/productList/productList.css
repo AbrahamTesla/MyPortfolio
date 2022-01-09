@@ -26,3 +26,23 @@
    justify-content: space-between;
    width: 100%;
 }
+
+@media screen and (max-width: 480px) {
+   .productList {
+      padding: 10px;
+      /* margin: 10px 0px; */
+      margin: 70px 0px;
+   }
+
+   .productText {
+      width: 100%;
+   }
+
+   .productListDescriptions {
+      display: none;
+   }
+   .productTitle {
+      font-size: 30px;
+      font-weight: 400;
+   }
+}
