@@ -9,7 +9,7 @@
    align-items: center;
    justify-content: center;
    position: relative;
-   /* background-color: red; */
+
    height: 100%;
 }
 .about-right {
@@ -31,7 +31,7 @@
 }
 
 .about-card.background {
-   background-color: #333;
+   background-color: gray;
    position: absolute;
    top: 50px;
    left: 50px;

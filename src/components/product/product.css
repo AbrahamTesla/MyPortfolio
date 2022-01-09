@@ -30,5 +30,5 @@
 }
 
 .product :hover .productImage {
-   transform: translateY(-100px);
+   transform: translateY(-20px);
 }
