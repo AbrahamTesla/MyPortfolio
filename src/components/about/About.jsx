@@ -17,23 +17,43 @@ const About = () => {
          <div className='about-right'>
             <h1 className='about-title'>About Me</h1>
             <p className='about-sub'>
-               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo
-               dolores accusamus architecto cumque sint quos at veritatis
-               aperiam doloremque possimus?
+               My passion to learn and grow, pushes me to improve myself and
+               continually reach for higher goals. I started as a registered
+               nurse that has myriad of experiences working in various clinical
+               settings. Now, that the landscapes of healthcare has changed, I
+               am invigorated to embrace and adapt myself to the newer
+               technologies and innovations that exist today. Thus, I decided to
+               head on in my new venture to acquire greater knowledge in
+               software/full stack development. My short term goals is to gain
+               experience working in a tech industry that stimulate progress and
+               creates value in our society. In the future, I believe in the
+               spirit of entrepreneurship. Thus, having a company surrounded by
+               great talents, focus individuals, respecting and caring
+               personalities that drives humanity to a better future is a dream
+               worth having.
             </p>
-            <p className='about-description'>
-               Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-               Reiciendis, cumque eos voluptatem ullam illum quae officiis
-               distinctio quam fugiat autem?
-            </p>
+
             <div className='award'>
                <img src={Award} alt='' className='award-img' />
                <div className='award-info'>
-                  <h4 className='award-title'>Recognitions</h4>
+                  <h4 className='award-title'>My Achievements & Experience</h4>
                   <p className='award-description'>
-                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                     Sed, repudiandae! Eligendi consectetur optio amet numquam
-                     doloremque quia magnam maxime dolorem!
+                     <li className='achievement'>
+                        Cybersecurity - University of Toronto (In-progress)
+                     </li>
+                     <li className='achievement'>
+                        Application Analyst/Clinical Informatics (2018)
+                     </li>
+                     <li className='achievement'>
+                        Full Stack Developer - University of Toronto (2018)
+                     </li>
+                     <li className='achievement'>
+                        Bachelor of Arts: Information Technology - York
+                        University (2015)
+                     </li>
+                     <li className='achievement'>
+                        Bachelor Science of Nursing - York University (2006)
+                     </li>
                   </p>
                </div>
             </div>

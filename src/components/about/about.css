@@ -49,6 +49,7 @@
 
 .about-sub {
    margin: 20px 0px;
+   padding-right: 50px;
 }
 
 .about-description {
@@ -60,12 +61,17 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+   /* background-color: red; */
 }
 
 .award-title {
    font-weight: bold;
    margin-bottom: 10px;
    color: #555;
+}
+
+.achievement {
+   padding-right: 10px;
 }
 
 @media screen and (max-width: 480px) {
@@ -80,7 +86,8 @@
    }
 
    .about-card.background,
-   .award {
+   .award-img,
+   .about-sub {
       display: none;
    }
 
@@ -92,5 +99,9 @@
 
    .about-right {
       padding: 20px;
+   }
+   li {
+      text-align: left;
+      padding: 5px;
    }
 }

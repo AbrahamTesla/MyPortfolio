@@ -20,9 +20,9 @@ const Intro = () => {
                   </div>
                </div>
                <div className='intro-description'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos
-                  similique maxime reiciendis itaque voluptas expedita eaque,
-                  numquam eveniet beatae corporis.
+                  "Imagination is more important than knowledge. Knowledge is
+                  limited. Imagination encircles the world." by
+                  <b className='Einstein'>Albert Einstein</b>
                </div>
             </div>
          </div>

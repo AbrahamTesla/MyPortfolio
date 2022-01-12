@@ -1,7 +1,9 @@
 import './contact.css';
 import Email from '../../img/emailImage.png';
 import Phone from '../../img/Phone_icon.png';
-import Address from '../../img/address.png';
+// import Address from '../../img/address.png';
+import Github from '../../img/github.png';
+import Linkedin from '../../img/linkedin.png';
 import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com';
 
@@ -52,15 +54,31 @@ const Contact = () => {
                      manlangitv@gmail.com
                   </div>
                   <div className='contactInfoItems'>
-                     <img src={Address} alt='' className='contactIcon' />
-                     180 Silicon Valley, California.
+                     <img
+                        src={Github}
+                        alt=''
+                        className='contactIcon'
+                        target='_blank'
+                        rel='noreferrer'
+                     />
+                     <a href='https://github.com/AbrahamTesla'>Github</a>
+                  </div>
+                  <div className='contactInfoItems'>
+                     <img src={Linkedin} alt='' className='contactIcon' />
+                     <a
+                        href='https://www.linkedin.com/in/vincent-manlangit/'
+                        target='_blank'
+                        rel='noreferrer'
+                     >
+                        LinkedIn
+                     </a>
                   </div>
                </div>
             </div>
             <div className='contactRight'>
                <p className='contactDescription'>
-                  <b>I want to hear from you</b> Please reach offering my
-                  service to reach your goals.
+                  <b>I want to hear from you!</b> Please kindly reach me.
+                  Offering my services to reach your goals.
                </p>
                <form ref={formRef} onSubmit={handleSubmit}>
                   <input type='text' placeholder='Name' name='user_name' />

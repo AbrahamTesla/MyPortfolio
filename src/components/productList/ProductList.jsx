@@ -8,9 +8,8 @@ const ProductList = () => {
          <div className='productText'>
             <h1 className='productTitle'> My Portfolios</h1>
             <p className='productListDescriptions'>
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque
-               voluptas natus doloribus unde autem totam officia cupiditate
-               repellendus eius dolorum!
+               Please checkout my work. Myriad of Technology involve (HTML, CSS,
+               NodeJs, ReactJS, MongoDB, Express, WordPress)
             </p>
          </div>
          <div className='productListItem'>
