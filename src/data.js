@@ -6,7 +6,7 @@ export const products = [
    },
    {
       id: 2,
-      img: 'https://github.com/AbrahamTesla/Contact_Organizer/blob/master/client/src/Image/register.png',
+      img: 'https://images.pexels.com/photos/263564/pexels-photo-263564.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
       link: 'https://contactorganizermern.herokuapp.com/login',
    },
    {
