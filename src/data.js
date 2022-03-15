@@ -1,8 +1,8 @@
 export const products = [
    {
       id: 1,
-      img: 'https://images.pexels.com/photos/2058128/pexels-photo-2058128.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
-      link: 'https://vamanlan.com',
+      img: 'https://images.pexels.com/photos/35550/ipad-tablet-technology-touch.jpg?cs=srgb&dl=pexels-pixabay-35550.jpg&fm=jpg',
+      link: 'https://abrahamtesla.github.io/ecommerce/',
    },
    {
       id: 2,
